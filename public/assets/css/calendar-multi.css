@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar-single {
+    width: 70rem;
+    height: 77rem;
+    color: #000;
+}
+
+.calendar-multi {
+    width: 70rem;
+    height: 77rem;
+    color: #000;
+}
+
+.month {
+    width: 100%;
+    height: 12rem;
+    /* background-color: #167e56; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    /* text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); */
+}
+
+.month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.month p {
+    font-size: 1.6rem;
+}
+
+.weekdays {
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.weekdays div {
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(70rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); */
+}
+
+.weekdays div .prev-month {
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(70rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); */
+}
+
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+
+.days div {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(65rem / 7);
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); */
+    transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today, .top-today, .bottom-today, .day) {
+    color: rgb(57, 57, 57);
+    /* border: 0.2rem solid #777; */
+    cursor: pointer;
+}
+
+.days div:active:not(.today, .top-today, .bottom-today, .day) {
+    border-color: #262626;
+    /* border: 0.2rem solid #777; */
+    cursor: pointer;
+}
+
+.days div:hover>.day {
+    color: #1f3083;
+}
+
+.prev-date,
+.next-date {
+    opacity: 0.5;
+    width: calc(65rem / 7);
+    height: 10rem;
+}
+
+.prev-month {
+    clear: both;
+    flex-direction: column;
+}
+
+.today {
+    /* background-color: #167e56; */
+
+    font-weight: bold;
+    clear: both;
+    flex-direction: column;
+    height: 150px;
+}
+
+.future {
+    /* background-color: #167e56; */
+
+    font-weight: bold;
+    clear: both;
+    flex-direction: column;
+    opacity: 0.7;
+    height: 180px;
+
+}
+
+.nottoday {
+    clear: both;
+    flex-direction: column;
+}
+
+.days div .bottom-today {
+    /* background-color: #e5e5e5; */
+    height: 120px;
+}
+
+.top-today {
+    background-color: #777;
+}
+
+.calendar-note {
+    background-color: #777;
+}
+
+.day {}
+
+.text-danger {
+    color: "#F00";
+}
+
+.with-bg-past {
+    background-image: url("../img/close.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffbaca;
+    background-position: bottom center, 50%, 50%;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+.with-bg-future {
+    background-color: #9effd2;
+    background-position: bottom center, 50%, 50%;
+    opacity: 0.8;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.time {
+    flex-direction: column;
+}

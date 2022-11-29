@@ -1,0 +1,254 @@
+/*******************************
+Style
+*******************************/
+.m-signup__form {
+  max-width: 448px;
+  width: 100%;
+  margin: 0 auto;
+}
+.m-signup__form .form-group {
+  margin-bottom: 0;
+}
+.m-signup__form .form-group input {
+  height: 38px;
+  padding-left: 11px;
+  margin-bottom: 10px;
+}
+.m-signup__form .form-group label {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 3.0769230769;
+  margin-bottom: 3px;
+  display: block;
+  letter-spacing: 0.1em;
+}
+.m-signup__form .form-group .m-required {
+  font-size: 12px;
+  font-size: 0.75rem;
+  margin-left: 2px;
+  color: #E22828;
+}
+.m-signup__form .form-group .m-password {
+  margin-bottom: 14px;
+}
+.m-signup__form .form-group .m-agree {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.m-signup__form .form-groupagree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  margin-top: 12px;
+  margin-bottom: 153px;
+  padding-left: 20px;
+}
+.m-signup__form .form-groupagree .m-agreetext {
+  color: #498FEF;
+  border-bottom: 1px #498FEF solid;
+}
+
+.l-signup .l-header {
+  margin-bottom: 18px;
+}
+.l-signup .m-title {
+  color: #1A3188;
+  font-size: 26px;
+  font-size: 1.625rem;
+  line-height: 66px;
+  margin-bottom: 4px;
+}
+.l-signup .c-btnsubmit {
+  max-width: 207px;
+  font-size: 16px;
+  font-size: 1rem;
+  height: 50px;
+}
+
+.sec-signup__text {
+  font-size: 12px;
+  font-size: 0.75rem;
+  color: #868686;
+  letter-spacing: 0.04em;
+}
+.sec-signup__text01 {
+  margin-bottom: 11px;
+}
+
+.sec-signupconfirm .m-title {
+  margin-bottom: 11px;
+}
+.sec-signupconfirm .m-signuptext01 {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 2;
+  margin-bottom: 14px;
+  max-width: 328px;
+  width: 100%;
+  margin: 0 auto 14px;
+}
+.sec-signupconfirm .m-boxformgroup {
+  max-width: 328px;
+  width: 100%;
+  margin: auto;
+  border: 1px #A8A8A8 solid;
+  border-radius: 5px;
+  padding: 16px 20px 19px 21px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .sec-signupconfirm .m-boxformgroup {
+    margin-bottom: 247px;
+  }
+}
+.sec-signupconfirm .form-group {
+  margin-bottom: 0;
+}
+.sec-signupconfirm .form-group label {
+  display: block;
+  color: #868686;
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+.sec-signupconfirm .form-group .m-textsinupconfirm {
+  font-size: 16px;
+  font-size: 1rem;
+}
+.sec-signupconfirm .form-groupemail {
+  border-bottom: 1px #A8A8A8 solid;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.sec-signupconfirm .c-btnsubmit {
+  margin-bottom: 12px;
+}
+.sec-signupconfirm .c-btnback {
+  background: #fff;
+  color: #1A3188;
+  border: 1px #1A3188 solid;
+}
+
+.sec-signupcomplete .m-title {
+  margin-bottom: 8px;
+}
+.sec-signupcomplete .m-signuptext01 {
+  text-align: center;
+  margin-bottom: 19px;
+}
+.sec-signupcomplete .m-boxcomplete {
+  max-width: 328px;
+  width: 100%;
+  margin: auto;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.sec-signupcomplete .m-boxcomplete__conent {
+  border-left: 1px #A8A8A8 solid;
+  border-right: 1px #A8A8A8 solid;
+  border-bottom: 1px #A8A8A8 solid;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 22px 0;
+}
+.sec-signupcomplete .m-titlecomplete {
+  font-size: 16px;
+  font-size: 1rem;
+  background: #1A3188;
+  color: #fff;
+  padding: 12px 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.sec-signupcomplete .m-textcomplete01 {
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.sec-signupcomplete .m-boxcomplete01 {
+  background: #F5F5F5;
+  padding: 19px 0 18px;
+}
+.sec-signupcomplete .m-boxcomplete01 .m-textcomplete01 {
+  font-weight: 700;
+}
+.sec-signupcomplete .m-textcomplete02 {
+  letter-spacing: 0.06em;
+}
+.sec-signupcomplete .m-boxlink {
+  color: #498FEF;
+  border-bottom: 1px #498FEF solid;
+  display: inline-block;
+}
+
+.l-nurselogin .l-header {
+  margin-bottom: 31px;
+}
+
+.sec-nurselogin .m-title_jp {
+  font-size: 26px;
+  font-size: 1.625rem;
+}
+.sec-nurselogin .m-title {
+  margin-bottom: 27px;
+}
+.sec-nurselogin .form-group {
+  max-width: 328px;
+  margin-bottom: 0;
+}
+.sec-nurselogin .form-group .m-email {
+  margin-bottom: 13px;
+}
+.sec-nurselogin .form-group input {
+  height: 38px;
+  padding-left: 11px;
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+.sec-nurselogin .m-forgetpassword {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .sec-nurselogin .m-forgetpassword {
+    margin-bottom: 379px;
+    letter-spacing: 0.05em;
+    margin-left: -8px;
+  }
+}
+.sec-nurselogin .c-btnsubmit {
+  max-width: 207px;
+}
+.is-invalid {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0 rgba(220, 53, 69, .25)
+}
+.invisible {
+  display: none;
+}
+.row{
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.forgot-pass{
+  color:#498FEF;
+  margin-left: 5px;
+}
+.sec-signupconfirm .form-group input{
+    border: 0!important;
+    padding-left: 0;
+}
+.m-forgorpass input {
+    height: auto;
+}
+
+.cursor-none {
+    pointer-events: none;
+}
